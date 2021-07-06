@@ -41,3 +41,5 @@ database_name= 'restaurants'
 os.system('mysql -u root -pcodio -e "CREATE DATABASE IF NOT EXISTS '+database_name+';"')
 engine = create_engine('mysql://root:codio@localhost/restaurants')
 df.to_sql('restaurant_information', con = engine, if_exists='replace', index=False)
+
+# new stuff
