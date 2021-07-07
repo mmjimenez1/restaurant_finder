@@ -7,14 +7,21 @@ from Yelp import api_to_json, add_all_info_df
 
 class test(unittest.TestCase):
    def test_collect_state_input(self):
-      length= len(collect_zip_input)
-      self.assertTrue(length)>5)
+      length= len(collect_state_input)
+      self.assertTrue(length>=2)
+   
+   
    def test_collect_zip_input(self):
       length= len(collect_zip_input)
-      self.assertTrue(length)>5)
-      
+      self.assertTrue(length==5)
+
+
    def test_collect_liked_input(self):
+      length= len(collect_liked_input)
+      self.assertTrue(length>3)
+      
    def test_makeScatterchart(self):
+      
    def test_makeBarchart(self):
    def tets_create_search_url(self):
    def test api_to_json(self):
