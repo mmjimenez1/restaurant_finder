@@ -1,5 +1,5 @@
 -- MariaDB dump 10.17  Distrib 10.4.8-MariaDB, for debian-linux-gnu (x86_64)
---
+-- 
 -- Host: localhost    Database: restaurants
 -- ------------------------------------------------------
 -- Server version	10.4.8-MariaDB-1:10.4.8+maria~bionic-log

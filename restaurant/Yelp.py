@@ -121,7 +121,7 @@ print(df2)
 database_name= 'restaurants' 
 file_name= 'test_file.sql'
 table_name= 'restaurant_information'
-
+ 
 # saveSQLtoFile(database_name, file_name)
 # loadSQLfromFile(database_name, file_name)
 
