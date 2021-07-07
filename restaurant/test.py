@@ -21,7 +21,11 @@ class test(unittest.TestCase):
       self.assertTrue(length>3)
       
    def test_makeScatterchart(self):
-      
+      xcol="Name"
+      ycol= "Rating"
+      df= 
+      try:
+         makeScatterchart()
    def test_makeBarchart(self):
    def tets_create_search_url(self):
    def test api_to_json(self):
