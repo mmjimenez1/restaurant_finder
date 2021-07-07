@@ -7,8 +7,11 @@ from Yelp import api_to_json, add_all_info_df
 
 class test(unittest.TestCase):
    def test_collect_state_input(self):
-      
+      length= len(collect_zip_input)
+      self.assertTrue(length)>5)
    def test_collect_zip_input(self):
+      length= len(collect_zip_input)
+      self.assertTrue(length)>5)
       
    def test_collect_liked_input(self):
    def test_makeScatterchart(self):
