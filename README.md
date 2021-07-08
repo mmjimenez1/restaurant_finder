@@ -1,25 +1,52 @@
-### What is this? 
-This `README.md` file is auto-created for all new projects.
+# RESTAURANT FINDER
 
-### Why am I here?
-This file opens automatically when you open a project. 
+# Table of Content
+1. General Information
+2. Installation
+3. Usage
+4. Room for improvement
+5. Credits
+6. Project Status
+7. Contact Information
+8. License
 
-If you do not create Guides, this `README.md` will be what automatically opens for students. You can edit this file by clicking on the pencil icon in the upper right corner.
+# General Information
+* This API allows you to search for restaurants near you by collecting your Zip-Code, State, and the type of food you prefer. It then returns three top rated restaurants based on your search and gives their locations.
+* It solves the problem of not knowing where to get your favorite food. It was designed mainly for travellers, helping them find restaurants near them even in places they are not familiar with.
+* The purpose of this application is to get you to your favorite food no matter where you go.
 
-### How do I get started with Codio?
-Use this [Onboarding Guide](https://codio.com/home/starter-packs/2ae8501b-e5f7-4b07-8e9f-adb155fc6d10) for an interactive tutorial through the main features of Codio. Click on the link, click **Use Pack** and then click **Create** to add it to your projects.
 
-### How do I close this file?
-At the top of your workspace you will see tabs for each open file. Click the x on the right hand side of the tab that says **README.md**.
-![readMeTab](https://global.codio.com/platform/readme.resources/readMeTab.png)
+## Installation
+This application is proven to run best  on python version 2.7 or higher.
+* You will need to install sqlalchemy.
+* You will need to install pandas.
+* You will need to install matplotlib.
+* You will need to install plotipy.
+* You will need to install numpy.
 
-### I expected to see or edit learning materials.
-Select **Tools->Guide->Play** to view the Guide for this project.
-![playGuide](https://global.codio.com/platform/readme.resources/playGuide.png)
+## Usage
+To make optimum use of this program you need to have a Yelp Developer account which if you do have you can create by visiting https://www.yelp.com/developers .
+After which you will need to collect an API Key and a base URL to be able to retreive data from Yelp using the API.
 
-Click on the **Open Guides Editor** icon to edit the Guide.
-![guideEdit](https://global.codio.com/platform/readme.resources/guideEdit.png)
+## Room for improvement
+The application can be improvised to not only take in a single food preference but multiple.
+The appliction can also be updated by adding links to the menus of the listed restaurants.
 
-### How do I delete this file?
-To delete this `README.md` file, right-click (ctrl-click on a Mac) on the file name in the file list.
-![fileTree](https://global.codio.com/platform/readme.resources/fileTree.png)
+
+## Project Status 
+NOTE: This project is still under development. We have a whole team working on the bettering of this API so that we can present an improved version of it. 
+
+## Credits
+Mwansa Puta (Trainee at SEO) 
+Melanie Jimenez (Trainee at SEO)
+
+# Contact Infomation
+Created by mwansa.puta@my.metrostate.edu & mmjimenez@owu.edu feel free to contact us.
+
+## Acknowledgements 
+This project was inspired by the SEO Tech Developer Team.
+It was based on their training session for the next world changing developers.
+Many thanks to them!
+
+## License
+Boost Software License 1.0

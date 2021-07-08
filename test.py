@@ -94,9 +94,6 @@ class TestFileName(unittest.TestCase):
       self.assertNotEqual(dictionary, 'error')
       print()
       
-#def test_add_all_info_df(self):
-
-      
       
 
 if __name__ == '__main__':

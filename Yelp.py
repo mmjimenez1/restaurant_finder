@@ -114,7 +114,6 @@ def add_all_info_df(col_names, main_dictionary):
 
 
 #  Main code-
-#
 #  Collect user input
 base_url = 'https://api.yelp.com/v3/businesses/search?'
 zip_code = collect_zip_input()
