@@ -24,7 +24,8 @@ def collect_zip_input():
         try:
             zip_code = int(input("Enter a ZipCode: "))
             break
-        except:
+        except ValueError:
+            print("Invalid, try again.")
             continue
     zip_code = str(zip_code)
     return zip_code
@@ -122,7 +123,11 @@ preference = collect_liked_input()
 
 # Get API information and access.
 search_url = create_search_url(base_url, zip_code, state, preference)
-api_key = 'eUJ17k9QVRaQVpchITGQszLJGOhhyE52aMFr1o1AO4v52d3_-La_yyI1gj-FiGOEKFG62RrVMqh5rN7Ab12hw60MC6euNHD7mYV5sARgZS4GNYFc-g_FQH4c7c7jYHYx'
+key1 = 'eUJ17k9QVRaQVpchITGQszLJGOhhyE52aMFr1o1AO4v52d3_-La_yyI1gj-'
+key2 = 'FiGOEKFG62RrVMqh5rN7Ab12hw60MC6euNHD7mYV5sARgZS4GNYFc-'
+key3 = 'g_FQH4c7c7jYHYx'
+api_key = key1 + key2 + key3
+#  'eUJ17k9QVRaQVpchITGQszLJGOhhyE52aMFr1o1AO4v52d3_-La_yyI1gj-FiGOEKFG62RrVMqh5rN7Ab12hw60MC6euNHD7mYV5sARgZS4GNYFc-g_FQH4c7c7jYHYx'
 headers = {
     'Authorization': 'Bearer %s' % api_key,
 }
