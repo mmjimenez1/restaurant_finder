@@ -27,6 +27,9 @@ jobs:
       - name: Install numpy
         run: python -m pip install numpy
         
+      - name: Install sqlalchemy
+        run: python -m pip install sqlalchemy
+        
       - name: Test with unittest
         run: |
           python3 -m unittest test.py
