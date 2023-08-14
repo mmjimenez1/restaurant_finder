@@ -37,7 +37,7 @@ The appliction can also be updated by adding links to the menus of the listed re
 NOTE: This project is still under development. We have a whole team working on the bettering of this API so that we can present an improved version of it. 
 
 ## Credits
-Mwansa Puta (Trainee at SEO) 
+Boston Mwansa (Trainee at SEO) 
 Melanie Jimenez (Trainee at SEO)
 
 # Contact Infomation
